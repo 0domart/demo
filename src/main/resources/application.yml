@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: demo
+datasources:
+  default:
+    driverClassName: oracle.jdbc.OracleDriver
+    db-type: oracle
+netty:
+  default:
+    allocator:
+      max-order: 3
